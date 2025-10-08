@@ -1347,6 +1347,9 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="volume">
+			<value>-0.5</value>
+		</property>
 		<relationship name="event">
 			<destination>{35da46fe-d66a-483e-9a43-0078fe59a709}</destination>
 		</relationship>
@@ -1505,9 +1508,6 @@
 		</property>
 		<property name="maxVoices">
 			<value>1</value>
-		</property>
-		<property name="volume">
-			<value>0.5</value>
 		</property>
 		<relationship name="event">
 			<destination>{b1ed8e69-ed2e-4c2c-b904-9d167788a1a3}</destination>
