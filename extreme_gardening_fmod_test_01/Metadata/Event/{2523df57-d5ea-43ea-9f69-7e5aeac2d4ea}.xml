@@ -706,6 +706,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{75a142f7-a70f-48f8-ae3c-30329c460d52}">
+		<property name="volume">
+			<value>-2.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{c276f108-4743-48f1-911a-c5029198c796}</destination>
 		</relationship>
@@ -1388,7 +1391,7 @@
 			<value>1</value>
 		</property>
 		<property name="volume">
-			<value>-3.9000001</value>
+			<value>-4</value>
 		</property>
 		<relationship name="event">
 			<destination>{cda21e9b-e577-4d47-b3c3-a2ef5bbefb08}</destination>
@@ -1454,7 +1457,7 @@
 			<value>1</value>
 		</property>
 		<property name="volume">
-			<value>-1.60000002</value>
+			<value>-3</value>
 		</property>
 		<relationship name="event">
 			<destination>{d5d209d1-a0e7-4c17-abaf-ece47854fcd7}</destination>
@@ -1508,6 +1511,9 @@
 		</property>
 		<property name="maxVoices">
 			<value>1</value>
+		</property>
+		<property name="volume">
+			<value>-1</value>
 		</property>
 		<relationship name="event">
 			<destination>{b1ed8e69-ed2e-4c2c-b904-9d167788a1a3}</destination>
@@ -1641,6 +1647,9 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<relationship name="event">
 			<destination>{c357dcb3-d6c8-4bdb-bd75-d6768edf7faf}</destination>
 		</relationship>
@@ -1735,7 +1744,7 @@
 			<value>1</value>
 		</property>
 		<property name="volume">
-			<value>-1.60000002</value>
+			<value>-3</value>
 		</property>
 		<relationship name="event">
 			<destination>{584defc5-06fe-404c-90ee-a3133c2f3150}</destination>
@@ -2675,7 +2684,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c9b01fb1-6fd5-44b8-9d10-1e2f037284aa}">
 		<property name="volume">
-			<value>-6.5</value>
+			<value>-5</value>
 		</property>
 		<property name="name">
 			<value>TRANS StartUp</value>
@@ -3449,6 +3458,9 @@
 		</property>
 	</object>
 	<object class="EventMixerGroup" id="{b6bdbdc2-3d0d-4eb9-983e-28c5b1e3309a}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<property name="name">
 			<value>TRANS HUB to M</value>
 		</property>
@@ -4012,6 +4024,9 @@
 		</property>
 	</object>
 	<object class="EventMixerGroup" id="{6ae6b396-12a4-4db5-b6c3-64b342250a2a}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<property name="name">
 			<value>TRANS M to HUB</value>
 		</property>
@@ -5590,7 +5605,6 @@
 	<object class="MixerBusEffectChain" id="{c276f108-4743-48f1-911a-c5029198c796}">
 		<relationship name="effects">
 			<destination>{a2cb581c-728f-4208-a551-c02656b99819}</destination>
-			<destination>{7ce9e3dd-b8cb-47b6-af88-19e3192beb41}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{dbcc17e6-aa3a-4148-a39e-fda2d6ce1808}" />
@@ -5958,10 +5972,10 @@
 	</object>
 	<object class="ParameterCondition" id="{a0c89ba1-311f-43c2-aa9d-199d4e03e551}">
 		<property name="minimum">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<property name="maximum">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -5986,10 +6000,10 @@
 	</object>
 	<object class="ParameterCondition" id="{f28905a4-f5f0-4a6a-b603-791b9b7cd8fb}">
 		<property name="minimum">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<property name="maximum">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6014,10 +6028,10 @@
 	</object>
 	<object class="ParameterCondition" id="{17faaecd-a619-46b8-8d68-7591c7c8ac31}">
 		<property name="minimum">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6042,10 +6056,10 @@
 	</object>
 	<object class="ParameterCondition" id="{35e12cee-f9e3-4702-ad1e-7caa8f060f27}">
 		<property name="minimum">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6070,10 +6084,10 @@
 	</object>
 	<object class="ParameterCondition" id="{7f6ff7b0-173b-488f-a521-ad33f5daab91}">
 		<property name="minimum">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<property name="maximum">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6098,10 +6112,10 @@
 	</object>
 	<object class="ParameterCondition" id="{e4f97fc2-54d1-4e19-afdf-c316429c34e6}">
 		<property name="minimum">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6109,10 +6123,10 @@
 	</object>
 	<object class="ParameterCondition" id="{eb510300-c800-41b0-8339-d3e41ac59bbf}">
 		<property name="minimum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6120,10 +6134,10 @@
 	</object>
 	<object class="ParameterCondition" id="{b72158c5-212a-48b7-8400-bffd7dddbec7}">
 		<property name="minimum">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6170,10 +6184,10 @@
 	</object>
 	<object class="ParameterCondition" id="{86f5d710-72fe-40ae-ae5f-5560000dd163}">
 		<property name="minimum">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<property name="maximum">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6198,10 +6212,10 @@
 	</object>
 	<object class="ParameterCondition" id="{0032ff5e-d4db-482d-a4f8-3f0887f15363}">
 		<property name="minimum">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6266,10 +6280,10 @@
 	</object>
 	<object class="ParameterCondition" id="{e4efda26-eef2-4d3b-a514-135af48eddca}">
 		<property name="minimum">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<property name="maximum">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6294,10 +6308,10 @@
 	</object>
 	<object class="ParameterCondition" id="{d8fb0277-ddef-41b7-9526-8455a8cadc01}">
 		<property name="minimum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6322,10 +6336,10 @@
 	</object>
 	<object class="ParameterCondition" id="{147fb0b4-0bc1-4442-99a9-df1f643eeaef}">
 		<property name="minimum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6350,10 +6364,10 @@
 	</object>
 	<object class="ParameterCondition" id="{48ddf329-d072-40a7-a76d-25af2437f0ec}">
 		<property name="minimum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6378,10 +6392,10 @@
 	</object>
 	<object class="ParameterCondition" id="{4bafee88-b1a4-4381-889a-8a3df15719e2}">
 		<property name="minimum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6406,10 +6420,10 @@
 	</object>
 	<object class="ParameterCondition" id="{f37e6bf1-97a2-44c6-bed4-8d0cfbad44ae}">
 		<property name="minimum">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<property name="maximum">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6434,10 +6448,10 @@
 	</object>
 	<object class="ParameterCondition" id="{508fdd27-fc0b-4805-a6ba-fa96337f8f25}">
 		<property name="minimum">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6462,10 +6476,10 @@
 	</object>
 	<object class="ParameterCondition" id="{724aa1a3-3c34-4efe-8c24-9229ba3ea2eb}">
 		<property name="minimum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6501,10 +6515,10 @@
 	</object>
 	<object class="ParameterCondition" id="{5b19c9aa-1a8c-4c07-8d8b-0f7bb0ece943}">
 		<property name="minimum">
-			<value>3</value>
+			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>3</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6529,10 +6543,10 @@
 	</object>
 	<object class="ParameterCondition" id="{43d806af-d1e1-4cc7-87e2-8cac19e7644e}">
 		<property name="minimum">
-			<value>3</value>
+			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>3</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6557,10 +6571,10 @@
 	</object>
 	<object class="ParameterCondition" id="{630b09f7-bd26-456d-81f6-55a22f5fda32}">
 		<property name="minimum">
-			<value>3</value>
+			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>3</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6585,10 +6599,10 @@
 	</object>
 	<object class="ParameterCondition" id="{e2ca7967-36c8-43a7-96e8-e71957c4196f}">
 		<property name="minimum">
-			<value>3</value>
+			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>3</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6613,10 +6627,10 @@
 	</object>
 	<object class="ParameterCondition" id="{caf2b440-fde9-4277-aaaf-2a05b95dcb01}">
 		<property name="minimum">
-			<value>3</value>
+			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>3</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6641,10 +6655,10 @@
 	</object>
 	<object class="ParameterCondition" id="{7ff72cc1-95ac-4cf9-b0c6-8fffab9a71dd}">
 		<property name="minimum">
-			<value>4</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>4</value>
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6669,10 +6683,10 @@
 	</object>
 	<object class="ParameterCondition" id="{0e2646b5-a31f-4d40-b54a-cba138677e66}">
 		<property name="minimum">
-			<value>4</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>4</value>
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6697,10 +6711,10 @@
 	</object>
 	<object class="ParameterCondition" id="{3ba50c2a-b600-4765-839a-ea5eaccc1cdf}">
 		<property name="minimum">
-			<value>4</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>4</value>
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6725,10 +6739,10 @@
 	</object>
 	<object class="ParameterCondition" id="{22bef0ee-9fec-464c-84ae-156870453d72}">
 		<property name="minimum">
-			<value>4</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>4</value>
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -6753,10 +6767,10 @@
 	</object>
 	<object class="ParameterCondition" id="{bda0c735-e5a3-436d-970d-c5da4e4fbdb2}">
 		<property name="minimum">
-			<value>4</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>4</value>
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{5942bf65-fe5b-4488-9b36-76fb7fea1888}</destination>
@@ -7314,17 +7328,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a2cb581c-728f-4208-a551-c02656b99819}" />
-	<object class="MultibandEqEffect" id="{7ce9e3dd-b8cb-47b6-af88-19e3192beb41}">
-		<property name="filterTypeA">
-			<value>5</value>
-		</property>
-		<property name="frequencyA">
-			<value>40</value>
-		</property>
-		<property name="qualityA">
-			<value>0.340000004</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{0bfcf071-d4a7-4439-855e-294e472d220e}">
 		<property name="position">
 			<value>0.5</value>

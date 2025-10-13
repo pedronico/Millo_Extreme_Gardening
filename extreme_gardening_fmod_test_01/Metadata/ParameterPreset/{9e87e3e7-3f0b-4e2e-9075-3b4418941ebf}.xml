@@ -19,18 +19,18 @@
 			<value>9</value>
 		</property>
 		<property name="enumerationLabels">
+			<value>HUB MODERN</value>
+			<value>HUB DOOM</value>
 			<value>HUB MINIMAL</value>
 			<value>HUB SLOW</value>
 			<value>HUB FAST</value>
-			<value>HUB DOOM</value>
-			<value>HUB MODERN</value>
 			<value>METAL MID</value>
 			<value>METAL SPEED</value>
 			<value>METAL FAST</value>
 			<value>METAL SLOW</value>
 		</property>
 		<property name="initialValue">
-			<value>0</value>
+			<value>2</value>
 		</property>
 	</object>
 </objects>

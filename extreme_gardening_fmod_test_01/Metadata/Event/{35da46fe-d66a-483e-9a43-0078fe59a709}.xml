@@ -144,7 +144,7 @@
 			<value>1.5</value>
 		</property>
 		<property name="volume">
-			<value>1.5</value>
+			<value>-1</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{f6b4ddcc-fcf9-4832-ae28-75ad48a40f0a}</destination>
@@ -220,7 +220,7 @@
 	</object>
 	<object class="NamedMarker" id="{5b94040d-d04a-4c50-85cc-0be4eb0ed79c}">
 		<property name="position">
-			<value>12</value>
+			<value>12.011729166666667</value>
 		</property>
 		<property name="name">
 			<value>MF-A</value>
