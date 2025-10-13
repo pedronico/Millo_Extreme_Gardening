@@ -30,7 +30,7 @@
 			<value>METAL SLOW</value>
 		</property>
 		<property name="initialValue">
-			<value>2</value>
+			<value>0</value>
 		</property>
 	</object>
 </objects>
